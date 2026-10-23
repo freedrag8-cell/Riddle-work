@@ -9,7 +9,7 @@ export default {
         },
       });
     }
-    const GEMINI_API_KEY = env.GEMINI_API_KEY;
+    const GEMINI_API_KEY = "AQ.Ab8RN6Ken9dLZJ1J2af-_qNtnbiJ-NDsMWtXgK__Snuu2keHEQ";
     const body = await request.json();
     const riddle = body.riddle || "";
     const geminiRes = await fetch(
